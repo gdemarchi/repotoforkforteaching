@@ -1,8 +1,8 @@
 # some fancy decoration
 def printbox(word):
-    print("°°{}°°".format(len(word) * "°"))
-    print ("°", word , "°")
-    print("°°{}°°".format(len(word) * "°"))
+    print("**{}**".format(len(word) * "*"))
+    print ("*", word , "*")
+    print("**{}**".format(len(word) * "*"))
 
 # you want to get into the club? - let's see frist if you're old enough!
 print("Wie alt bist du?")
