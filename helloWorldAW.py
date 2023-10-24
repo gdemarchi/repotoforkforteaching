@@ -1,10 +1,10 @@
 # could you write a very fancy hello world script in python, just to showcase some more cool python/numpy/scipy
-# features in one short silly script    
+# features in one short silly script
 
 import numpy as np
 
 # Define the message to display
-message = "Hello, Salzburg!"
+message = ["Hello, Salzburg!", "Greetings from Vienna"]
 
 # Convert the message to a NumPy array of characters
 chars = np.array(list(message))
@@ -17,6 +17,3 @@ chars[vowels] = "_"
 
 # Print the modified message
 print("".join(chars))
-
-
-
