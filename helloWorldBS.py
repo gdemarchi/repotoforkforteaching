@@ -4,7 +4,7 @@
 import numpy as np
 
 # Define the message to display
-message = "Hello, World!"
+message = "Hello!"
 
 # Convert the message to a NumPy array of characters
 chars = np.array(list(message))
