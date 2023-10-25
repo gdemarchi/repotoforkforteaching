@@ -12,3 +12,5 @@ input("Press Enter to flip the coin...")
 
 result = coin_flip()
 print(f"The coin landed on: {result}")
+
+#tollerTrick
